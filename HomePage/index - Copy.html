@@ -9,9 +9,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!--  Custom CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Trek Mountain Bikes</title>
   </head>
   <body>
+    <!-- Page Wrapper -->
+<div style="background: url(img/artMT2.svg)" class="page-holder bg-cover">
+
     <!--  Navigation  -->
     <nav class="navbar navbar-light bg-white navbar-expand-sm">
       
@@ -36,7 +42,7 @@
     
     <!--  Banner Image  -->
     <div>
-      <img src="img/mtBikes.svg" class="img-fluid w-100">
+      <img src="img/Montains.svg" class="img-fluid w-100">
     </div>
 
     <!-- Contact Modal -->
@@ -93,49 +99,49 @@
     <div class="row row-cols-1 row-cols-md-3 g-3 pb-5">
       <div class="col">
         <div class="card text-center">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="img/hexMt.svg" class="card-img-top w-100" alt="...">
           <div class="card-body">
             <h3 class="card-title">WOMEN'S</h3>
             <p class="card-text">Top Accessories</p>
             <hr>
-              <a href="#">Helmets</a><br>
-              <a href="#">Jackets</a><br>
-              <a href="#">Thermals</a><br>
-              <a href="#">Shoes</a><br>
-              <a href="#">Seat Packs</a><br>
-              <a href="#">Glasses</a>
+              <a href="#" class="text-info">Helmets</a><br>
+              <a href="#" class="text-info">Jackets</a><br>
+              <a href="#" class="text-info">Thermals</a><br>
+              <a href="#" class="text-info">Shoes</a><br>
+              <a href="#" class="text-info">Seat Packs</a><br>
+              <a href="#" class="text-info">Glasses</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card text-center">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="img/hexMt.svg" class="card-img-top w-100" alt="...">
           <div class="card-body">
             <h3 class="card-title">MEN'S</h3>
             <p class="card-text">Top Accessories</p>
             <hr>
-              <a href="#">Helmets</a><br>
-              <a href="#">Jackets</a><br>
-              <a href="#">Thermals</a><br>
-              <a href="#">Shoes</a><br>
-              <a href="#">Seat Packs</a><br>
-              <a href="#">Glasses</a>
+              <a href="#" class="text-info">Helmets</a><br>
+              <a href="#" class="text-info">Jackets</a><br>
+              <a href="#" class="text-info">Thermals</a><br>
+              <a href="#" class="text-info">Shoes</a><br>
+              <a href="#" class="text-info">Seat Packs</a><br>
+              <a href="#" class="text-info">Glasses</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card text-center">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="img/hexMt.svg" class="card-img-top w-100" alt="...">
           <div class="card-body">
             <h3 class="card-title">KIDS'</h3>
             <p class="card-text">Top Accessories</p>
             <hr>
-              <a href="#">Helmets</a><br>
-              <a href="#">Jackets</a><br>
-              <a href="#">Thermals</a><br>
-              <a href="#">Shoes</a><br>
-              <a href="#">Seat Packs</a><br>
-              <a href="#">Glasses</a>
+              <a href="#" class="text-info">Helmets</a><br>
+              <a href="#" class="text-info">Jackets</a><br>
+              <a href="#" class="text-info">Thermals</a><br>
+              <a href="#" class="text-info">Shoes</a><br>
+              <a href="#" class="text-info">Seat Packs</a><br>
+              <a href="#" class="text-info">Glasses</a>
           </div>
         </div>
       </div>
@@ -143,19 +149,27 @@
 
     <!--  Map & Photo Tour  -->
     <section>
-      <div class="row">
-        <div id="newsletter" class="col-md-3">
-          <img src="#" class="img-fluid">
-          <p>33 PLUS TRAILS TO ENJOY!</p>
+      <div class="row p-4 ">
+        <div id="newsletter" class="col-md-3 pb-3">
+          <img src="img/Mercator-Mountain1.svg" class="img-fluid">
+          <p class="text-center">33 PLUS TRAILS TO ENJOY!</p>
           <div class="btn btn-block btn-info"><!--  green botton that fills div space  -->
             <a class="text-white" data-toggle="modal" href="#news">Learn more about TREK TRAILS!</a>
           </div><!-- End .col-4  -->
         </div>
-        <div class="col-md-3">
-          
+        <div id="resources" class="col-md-3 py-3 text-center">
+          <h3>RESOURCES</h3>
+          <hr>
+          <h4><a href="#" class="text-muted">FIT & SIZING</a></h4>
+          <hr>
+          <h4><a href="#" class="text-muted">SUSPENSIONS</a></h4>
+          <hr>
+          <h4><a href="#" class="text-muted">RIDE ON:<br> WHAT TO PACK<br> FOR THE TRAIL</a></h4>
         </div>
-        <div class="col-md-6">
-          
+        <div id="photoTour" class="col-md-6 pt-3">
+          <h3 class="text-center">PHOTO TOUR!</h3>
+          <img src="img/Mt_bike_downhill.jpg" class="w-100">
+          <img src="img/Norco_Range.jpg" class="w-100">
         </div>
       </div>
     </section>
@@ -196,19 +210,17 @@
     </div><!--  End .modal fade  -->
 
 <!--  Enjoy  -->
-<section id="newsletter" class="bg-dark p-2 text-white text-center"><!--  How to center the text???  -->
+<section class="bg-dark p-2 mt-5 text-white text-center"><!--  How to center the text???  -->
   
-    <div class="row">
-      <div class="col-12 d-flex "><!--  flexbox element with text aligned vertically -->
-        <p class="m-0">Enjoy Your Trek!</p>
-      </div><!--  End  -->
-    </div>
+        <h4>Enjoy Your Trek!</h4>
   
-</section><!--  End #newsletter  -->
+</section><!--  End Enjoy  -->
 
     <footer>
 
-      <section class="text-center">
+      <section class="text-center text-light py-4 align-items-center">
+      <p>Follow TrekTrails on social media</p>
+      
         <a class="p-4" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" role="img">
             <title>Instagram</title>
@@ -228,6 +240,8 @@
           </svg>
         </a>
       </section>
+
+</div>
     
     </footer>
     
@@ -236,5 +250,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</div>
   </body>
 </html>
