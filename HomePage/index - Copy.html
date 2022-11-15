@@ -12,14 +12,19 @@
     <!--  Custom CSS  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!--  Custom Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap" rel="stylesheet">
+
     <title>Trek Mountain Bikes</title>
   </head>
   <body>
     <!-- Page Wrapper -->
-<div style="background: url(img/artMT2.svg)" class="page-holder bg-cover">
+<div style="background: url(img/artMT3.svg)" class="page-holder bg-cover">
 
     <!--  Navigation  -->
-    <nav class="navbar navbar-light bg-white navbar-expand-sm">
+    <nav class="navbar navbar-light navbar-expand-sm">
       
       <!--  Hamburger Menu  -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBurger" aria-controls="navBurger" aria-expanded="false" aria-label="toggle navigation">
@@ -41,8 +46,11 @@
     </nav><!--  End nav  -->
     
     <!--  Banner Image  -->
-    <div>
-      <img src="img/Montains.svg" class="img-fluid w-100">
+    <div class="text-center">
+      <a href="#"><img src="img/Logo.svg" class="img-fluid w-25"></a>
+      <!-- <img src="img/Montains.svg" class="img-fluid w-100"> -->
+      <h1 class="text-uppercase">Trek Mountain Bikes</h1>
+      <p class="px-5 mtInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
 
     <!-- Contact Modal -->
@@ -98,8 +106,8 @@
     <!--  Audience Cards  -->
     <div class="row row-cols-1 row-cols-md-3 g-3 pb-5">
       <div class="col">
-        <div class="card text-center">
-          <img src="img/hexMt.svg" class="card-img-top w-100" alt="...">
+        <div class="card shadow text-center bg-dark text-white">
+          <img src="img/Norco_Range (2).jpg" class="card-img-top" alt="Card image cap women's bike overlooking mountain vista">
           <div class="card-body">
             <h3 class="card-title">WOMEN'S</h3>
             <p class="card-text">Top Accessories</p>
@@ -114,8 +122,8 @@
         </div>
       </div>
       <div class="col">
-        <div class="card text-center">
-          <img src="img/hexMt.svg" class="card-img-top w-100" alt="...">
+        <div class="card shadow text-center bg-dark text-white">
+          <img src="img/Mt_bike_downhill (2).jpg" class="card-img-top" alt="Card image cap man in downhill mountain bike race">
           <div class="card-body">
             <h3 class="card-title">MEN'S</h3>
             <p class="card-text">Top Accessories</p>
@@ -130,8 +138,8 @@
         </div>
       </div>
       <div class="col">
-        <div class="card text-center">
-          <img src="img/hexMt.svg" class="card-img-top w-100" alt="...">
+        <div class="card shadow text-center bg-dark text-white">
+          <img src="img/Brum_Brum_Kids (2).jpg" class="card-img-top" alt="Card image cap kid on brum brum">
           <div class="card-body">
             <h3 class="card-title">KIDS'</h3>
             <p class="card-text">Top Accessories</p>
@@ -152,24 +160,24 @@
       <div class="row p-4 ">
         <div id="newsletter" class="col-md-3 pb-3">
           <img src="img/Mercator-Mountain1.svg" class="img-fluid">
-          <p class="text-center">33 PLUS TRAILS TO ENJOY!</p>
+          <h3 class="text-center trails">33 PLUS TRAILS TO ENJOY!</h3>
           <div class="btn btn-block btn-info"><!--  green botton that fills div space  -->
-            <a class="text-white" data-toggle="modal" href="#news">Learn more about TREK TRAILS!</a>
+            <a class="text-white" data-toggle="modal" href="#news"><h4 class="trails">Learn more about<br>TREK TRAILS!</h4></a>
           </div><!-- End .col-4  -->
         </div>
         <div id="resources" class="col-md-3 py-3 text-center">
-          <h3>RESOURCES</h3>
+          <h3 class="mt">RESOURCES</h3>
           <hr>
-          <h4><a href="#" class="text-muted">FIT & SIZING</a></h4>
+          <h4><a href="#" class="text-light">FIT & SIZING</a></h4>
           <hr>
-          <h4><a href="#" class="text-muted">SUSPENSIONS</a></h4>
+          <h4><a href="#" class="text-light">SUSPENSIONS</a></h4>
           <hr>
-          <h4><a href="#" class="text-muted">RIDE ON:<br> WHAT TO PACK<br> FOR THE TRAIL</a></h4>
+          <h4><a href="#" class="text-light">RIDE ON:<br> WHAT TO PACK<br> FOR THE TRAIL</a></h4>
         </div>
         <div id="photoTour" class="col-md-6 pt-3">
-          <h3 class="text-center">PHOTO TOUR!</h3>
-          <img src="img/Mt_bike_downhill.jpg" class="w-100">
-          <img src="img/Norco_Range.jpg" class="w-100">
+          <h3 class="text-center mt">PHOTO TOUR!</h3>
+          <img src="..." class="w-100">
+          <img src="..." class="w-100">
         </div>
       </div>
     </section>
@@ -186,7 +194,7 @@
           </div><!--  End .modal-header  -->
 
           <div class="modal-body">
-            <p class="text-center">Trek The World With Us!</p>
+            <p class="text-center joy">Trek The World With Us!</p>
             <!--  form to subscribe to newsletter  -->
             <form>
                 <div class="form-group">
@@ -212,7 +220,7 @@
 <!--  Enjoy  -->
 <section class="bg-dark p-2 mt-5 text-white text-center"><!--  How to center the text???  -->
   
-        <h4>Enjoy Your Trek!</h4>
+        <h4 class="joy">Enjoy Your Trek!</h4>
   
 </section><!--  End Enjoy  -->
 
