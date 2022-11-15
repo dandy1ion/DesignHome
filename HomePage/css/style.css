@@ -34,8 +34,13 @@ h1 {
   font-family: 'Khand', sans-serif;
 }
 
-.mt {
+.mtZ {
   font-size: 45px;
+  font-family: 'Khand', sans-serif
+}
+
+.mtR {
+  font-size: 40px;
   font-family: 'Khand', sans-serif
 }
 
