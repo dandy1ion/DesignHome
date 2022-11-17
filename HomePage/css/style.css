@@ -24,8 +24,13 @@ h1 {
   font-size: 19px;
 }
 
-.card-title {
+.top-txt {
   font-size: 40px;
+  font-family: 'Khand', sans-serif;
+}
+
+.second-txt {
+  font-size: 30px;
   font-family: 'Khand', sans-serif;
 }
 
@@ -47,4 +52,8 @@ h1 {
 .joy {
   font-size: 42px;
   font-family: 'Khand', sans-serif;
+}
+
+.sizeUp {
+  font-size: 20px;
 }
